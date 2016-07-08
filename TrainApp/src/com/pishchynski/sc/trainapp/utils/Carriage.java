@@ -24,8 +24,8 @@ public class Carriage {
         return price;
     }
 
-    public String getType() {
-        return type.toString();
+    public TrainAppUtils.CarriageType getType() {
+        return type;
     }
 
     public int getID() {
